@@ -18,7 +18,7 @@ import com.project.boot.service.ProductService;
 public class ProductController {
 
 	@Autowired
-	private ProductService service;
+	private ProductService service; ////////////////////////////////////////save
 
 	@PostMapping(value = "/saveProduct")
 	public ResponseEntity saveProduct(@RequestBody Product product) {
